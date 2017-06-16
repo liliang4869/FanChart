@@ -16,7 +16,7 @@ export default class FanChartDemo extends Component {
   render() {
     return (
       <View style={styles.container}>
-       <FanChart style={{height:400,width:400,backgroundColor:'#556688'}} O={{x:200,y:200,r:100}} DataList={[{data:0.2,color:'#998877'},{data:0.6,color:'#337233'}]} />
+       <FanChart style={{height:400,width:400}} O={{x:200,y:200,r:100}} DataList={[{data:0.2,color:'#998877'},{data:0.6,color:'#337233'}]} />
       </View>
     );
   }
